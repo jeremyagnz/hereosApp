@@ -1,0 +1,10 @@
+<h1 mat-dialog-title> Estas seguro?</h1>
+<div mat-dialog-content>
+  <p>Este proceso no es reversible, está a punto de eliminar a {{data.superhero}}</p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <div class="spacer"></div>
+  <button mat-button color="primary" (click)="onConfirm()" cdkFocusInitial>Ok</button>
+</div>
